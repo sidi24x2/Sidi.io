@@ -1,0 +1,67 @@
+body {
+    color: white;
+    background-color: rgb(30, 29, 29);   
+}
+header {
+    text-align: center;
+    margin: 0px;
+}
+.zero {
+    background-color: rgb(30, 29, 29);   
+
+}
+h1 {
+    font-size: 26px;
+}
+a {
+    color: whitesmoke;
+    text-decoration: none; 
+    padding: 5px;
+}
+.one {
+    background-color: rgb(33, 33, 130);
+}
+.welcome {
+    margin: 100px 100px;
+    padding: 15px ;
+}
+.two {
+    background-color: rgb(35, 35, 110);
+}
+.Achievements { 
+    margin: 0px 100px;
+    padding: 15px;
+}
+.three {
+    backface-visibility: hideen;
+    background-color: rgb(25, 25, 108);
+}
+.New{
+    margin: 0px 100px;
+    padding: 15px;
+}
+.four {
+    backface-visibility: hidden;
+    background-color: rgba(38, 38, 121, 0.253);
+}
+.Gratitude {
+    margin: 0px 100px;
+    padding: 15px;
+}
+hr {
+    border-color: rgb(192, 189, 189);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+img {
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+}
+footer {
+    margin: 10px 100px ;  
+    padding: 16px;
+}
+section {
+    white-space: 0;
+}

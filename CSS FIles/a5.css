@@ -1,0 +1,79 @@
+h1 {
+    text-align: center;
+    font-size: 64px;
+    padding: 32px 180px ;
+}
+body {
+    line-height: 1.5;
+}
+hr {
+    width: 500px;
+    border-style: dashed;
+    margin: 30px auto;
+    border-color: grey;
+}
+h2 {
+    font-size: 36px;
+    text-align: center;
+    margin: 20px;
+}
+.para {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(143, 199, 143);
+    margin: 0 auto;
+    padding: 15px;
+    border: 5px solid black;
+    box-shadow: inset 12px 12px skyblue, inset -12px -12px skyblue;
+    outline: 20px solid rosybrown;
+}
+.mark {
+    text-align: center;
+    margin-top: 40px;
+}
+.marked {
+    margin: 0 16px ;
+    display: inline-block;  
+}
+.circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color:rgb(143, 199, 143) ;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 12px;
+
+}
+.Padding {
+    background-color: skyblue;
+}
+.Border {
+    background-color: black;
+}
+.Margin {
+    background-color: rosybrown;
+}
+.para1 {
+    text-align: center;
+    font-size: 24px;
+}
+.box {
+    background-color: grey;
+    height:100px;
+    width: 180px;
+    margin: 10px;
+    display: inline-block;
+}
+.border {
+    border: 1px solid black;
+}
+.zero {
+    width: 600px;
+    border: 1px solid grey;
+    margin: 0 auto;
+    font-size: 0;
+}
+.borderbox {
+    box-sizing: border-box;
+}

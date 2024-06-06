@@ -1,0 +1,16 @@
+body {
+    color: white;
+    background-color: #22396a;
+}
+a {
+    color: red;
+}
+h2 {
+    color: #31bb66;
+}
+header{
+    text-align: center;
+}
+footer{
+    text-align: center;
+}
