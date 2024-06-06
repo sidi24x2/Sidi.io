@@ -1,0 +1,80 @@
+body {
+    color: white;
+    line-height: 1.5;
+    font-size: 16px; 
+}
+.container {    
+    margin: 0 100px;
+}
+hr {
+    margin: 32px auto;
+    border: 0;
+    border-bottom: 2px solid #999;
+}
+/* Header Par */
+.header {
+    text-align: center;
+    background-color: #2E313F;
+}
+h1 {
+   font-size: 26px;
+   margin-bottom: 16px; 
+}
+.header a {
+    padding: 5px ;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+.hero {
+    background-color: #2E313F;
+    padding: 50px;
+}
+.hero-heading {
+    font-size: 32px;
+    text-transform: uppercase;
+    
+}
+.hero-text {
+    text-transform: uppercase;
+    color: aliceblue;
+}
+img {
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+.blog { 
+    background-color: #4C5C96 ;
+    padding: 15px;
+}
+.heading {
+    text-transform: uppercase;
+    margin-bottom: 24px ;
+}
+.article-text {
+    color: white;
+    margin-bottom:24px ;
+
+}
+.article-link {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.blog-2 {
+    background-color:#45548D ;
+}
+.blog-3 {
+    background-color: #3F4E85;
+}
+/* footer */
+.footer {
+    background-color: #2E313F ;
+    padding: 16px 0;
+}
+section {
+    white-space: 0;
+}
