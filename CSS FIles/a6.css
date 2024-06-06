@@ -1,13 +1,15 @@
 body {
     color: white;
-    background-color: rgb(30, 29, 29);   
+    font-size: 16px;   
+    background-color:#2E313F
 }
 header {
     text-align: center;
     margin: 0px;
+    background-color: #2E313F;
 }
 .zero {
-    background-color: rgb(30, 29, 29);   
+    background-color:#2E313F;   
 
 }
 h1 {
