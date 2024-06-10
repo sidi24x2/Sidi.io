@@ -61,7 +61,6 @@ body {
 
 .container {
     width: 1000px;
-    height: 1000px;
     margin: 0 auto;
     background-color: white;
 }
@@ -79,7 +78,6 @@ h1 {
 
 .col {
     width: 20.33%;
-    height: 1000px;
     margin: 1.5%;
     float: left;
     padding-top: 28px;
@@ -105,8 +103,9 @@ p {
 .real {
     font-size: 17px;
 }
-.clearfix::after,.clearfix::before{
-    content: "Heyy";
+.clearfix::before,
+.clearfix::after {
+    content: "";
     display: table;
 }
 .clearfix::after {

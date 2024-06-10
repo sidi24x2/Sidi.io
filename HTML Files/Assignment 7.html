@@ -3,131 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <title>Assignment7</title>
-    <style>
-        /* CSS Reset */
-        html, body, div, span, applet, object, iframe,
-        h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-        a, abbr, acronym, address, big, cite, code,
-        del, dfn, em, img, ins, kbd, q, s, samp,
-        small, strike, strong, sub, sup, tt, var,
-        b, u, i, center,
-        dl, dt, dd, ol, ul, li,
-        fieldset, form, label, legend,
-        table, caption, tbody, tfoot, thead, tr, th, td,
-        article, aside, canvas, details, embed, 
-        figure, figcaption, footer, header, hgroup, 
-        menu, nav, output, ruby, section, summary,
-        time, mark, audio, video {
-            margin: 0;
-            padding: 0;
-            border: 0;
-            font-size: 100%;
-            font: inherit;
-            vertical-align: baseline;
-        }
-        /* HTML5 display-role reset for older browsers */
-        article, aside, details, figcaption, figure, 
-        footer, header, hgroup, menu, nav, section {
-            display: block;
-        }
-        body {
-            line-height: 1;
-        }
-        ol, ul {
-            list-style: none;
-        }
-        blockquote, q {
-            quotes: none;
-        }
-        blockquote:before, blockquote:after,
-        q:before, q:after {
-            content: '';
-            content: none;
-        }
-        table {
-            border-collapse: collapse;
-            border-spacing: 0;
-        }
-
-        /* Custom Styling */
-        * {
-            box-sizing: border-box;
-        }
-        body {
-            background-color: rgb(194, 191, 191);
-            line-height: 1.5;
-            font-size: 15px;
-        }
-        /* Container */
-        .container {
-            width: 1000px;
-            margin: 0 auto;
-            background-color: white;
-        }
-
-        /* Header */
-        h1 {
-            font-size: 27px;
-            font-weight: bold;
-            text-align: center;
-            padding: 10px 0;
-        }
-
-        /* Column */
-        .col {
-            width: 20.33%;
-            height: 1000px;
-            margin: 1.5%;
-            float: left;
-            padding-top: 28px;
-        }
-        .middle {
-            width: 50.33%;
-            padding: 0;
-        }
-        h2 {
-            font-size: 20px;
-            font-weight: 800;
-            padding: 10px;
-        }
-        .col img {
-            width: 100%;
-        }
-        p {
-            margin: 10px 0;
-        }
-        .quote {
-            text-align: center;
-        }
-        .real {
-            font-size: 17px;
-        }
-    </style>
+    <link rel="stylesheet" href="../CSS FIles/a7.css">
 </head>
 <body>
     <header class="header">
-        <div>
+        <div >
             <h1>"The One Piece is Real, by Jatin Sharma"</h1>
         </div>
     </header>
     <main>
         <div class="container clearfix">
-            <article class="article">
-                <div class="col left">
+            <aside class="col left">
                     <p>One Piece () is a Japanese manga series written and illustrated by Eiichiro Oda. It has been serialized in Shueisha's shōnen manga magazine Weekly Shōnen Jump since July 1997, with its individual chapters compiled in 108 tankōbon volumes as of March 2024. The story follows the adventures of Monkey D. Luffy and his crew, the Straw Hat Pirates.</p>
-                </div>
-                <div class="col middle">
+                </aside>
+            <article class="col middle">
                     <h2>What is One Piece?</h2>
                     <img src="Pictures/014de23ca43b642573ac99b964e64b85.jpg" alt="One Piece Image">
                     <p>The One Piece is the driving goal of Monkey D. Luffy and his crew, as well as that of multiple other pirates, who all seek to claim the treasure in order to become the next Pirate King, following Roger's dying words at his execution.</p>
                     <p>After decades of speculations and doubts, the treasure's existence was confirmed by Whitebeard with his last breath. He mentioned that "a grand battle will engulf the entire world" and "the world will be shaken to its core" when the One Piece is found.</p>
                     <p class="quote">"Miracles only happen to those who never give up."</p>
                     <p>It should be noted that the name "One Piece" did not originate from Roger himself, but rather the "world at large" who did not know what the treasure actually was. Roger acknowledged this name as something the people had chosen, but did not use it during his famous last words. Instead, he simply mentioned "[his] treasure" (俺の財宝, ore no zaihō) left at "that place" (そこに, soko ni). Despite this, the 4Kids translation changed Roger's speech to include the name of the treasure: "I left everything I own in One Piece."</p>
-                </div>
-                <div class="col right">
-                    <p class="real">The One Piece is a real and tangible object that is the ultimate treasure of the pirate world in the manga and anime series One Piece. It is not based on a true story, but rather an original creation of the author, Eiichiro Oda. Oda has confirmed that the One Piece exists and is not a metaphor or a hoax. The revelation of the One Piece's reality is a significant plot point in the story.</p>
-                </div>
             </article>
+            <aside class="col right">
+                    <p class="real">The One Piece is a real and tangible object that is the ultimate treasure of the pirate world in the manga and anime series One Piece. It is not based on a true story, but rather an original creation of the author, Eiichiro Oda. Oda has confirmed that the One Piece exists and is not a metaphor or a hoax. The revelation of the One Piece's reality is a significant plot point in the story.</p>
+            </aside>
         </div>
     </main>
 </body>
