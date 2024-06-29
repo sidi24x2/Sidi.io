@@ -1,0 +1,381 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* Custom Styling */
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 800 */
+
+.open-sans-uniquifier {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <700>;
+  font-style: normal;
+  font-variation-settings:"wdth" 100;
+}
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .roboto-thin-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .roboto-medium-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .roboto-black-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+*,
+* ::before,
+* ::after {
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 25px;
+}
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.between {
+    justify-content: space-between;
+}
+.start {
+    justify-content: start;
+}
+.start-a {
+  align-items: start;
+}
+.col {
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+}
+body {
+    font-family: "Open Sana", sans-serif;
+    line-height: 1.5;
+    font-size: 15px;
+    color: white;
+
+}
+body a {
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+   
+}
+
+.hero {
+  
+  background: linear-gradient(to left,rgba(140, 243, 145,1),rgba(47, 111, 185,1)), url(../HTML\ Files/A\ 17/home-bg.jpg);
+}
+/* Header */
+
+.nav-bar {
+    padding: 24px;
+    
+}
+.nav-bar a {
+    margin: 15px;
+}
+.head {
+    font-size: 28px;
+    font-weight: bold;
+   
+}
+.nav-left {
+    width: 60%;
+    margin-right: 20px;
+}
+
+/* Section */
+
+.home{
+    margin: 150px 0 100px 0;
+}
+.head-home {
+    padding: 24px;
+}
+.home-left {
+    width: 44%;
+    margin: 2%;
+    margin-left: 0;
+}
+.nav {
+  background-color:#CF3732;
+}
+.btn {
+    padding: 15px;
+    height: 50px;
+    width: 140px;
+    border-radius:24px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.btn2 {
+    background-color: #CF3732;
+}
+h1 {
+    font-size: 44px;
+    font-family: "roboto-medium",sans-serif;
+    margin-bottom: 20px;
+}
+.btn-home a {
+  border: 1px solid white;
+  margin-right: 15px;
+}
+
+/* Section - Introduction */
+
+.introduction {
+  background-color: white;
+  color: black;
+}
+.intro-art {
+  padding-top: 100px;
+}
+.intro-left {
+  width: 40%; 
+}
+.intro-right {
+  width: 20%;
+  padding-top: 15px;
+}
+
+h2 {
+  font-size: 30px;
+  align-items: center;
+}
+.dot {
+  height: 10px;
+  width: 10px;
+  background-color: #D8D8D8;
+  margin: 10px 5px 20px 0;
+}
+.art-text {
+  color: #9D9D9D;
+}
+ .image-intro  {
+  width: 30%;
+
+}
+.image-intro img {
+  width: 100%;
+  margin-bottom: 0;
+}
+hr {
+  margin: 10px 0 20px 0;
+  background-color: black;
+  height: 4px;
+}
+.web {
+  width: 85%;
+}
+.photography {
+  width: 90%;
+}
+.content {
+  width: 75%;
+}
+.cms {
+  width: 70%;
+}
+
+/* Section : Blog */
+
+.blog {
+  background-color: #EFEFEF;
+  color: black;
+  padding-bottom: 60px;
+}
+
+.blog-head {
+  padding: 40px 0 10px 0;
+}
+ .blog-head h2  {
+  text-align: center;
+}
+.blog-box {
+  height: 300px;
+  background-color: white;
+  width: 46%;
+  margin: 2%;
+}
+.box-left {
+  width: 40%;
+}
+.box-left img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+.box-right {
+  width: 55%;
+  margin: 2.5%;
+}
+h3 {
+  font-size: 20px;
+  font-weight: 300;
+  text-transform: capitalize;
+  margin-top:  10px;
+}
+.btn-2 {
+  margin-top: 25px;
+  background-color: #EFEFEF;
+  color: black;
+}
+.date-time {
+  color: #D75B58;
+}
+.our-work {
+  background-color: white;
+  color: black;
+}
+.our-work-pics img {
+  width: 23%;
+  margin: 1%;
+  padding-bottom: 60px;
+}
+.contact-us {
+  padding-bottom: 60px;
+}
+.contact-left {
+  width: 60%;
+}
+.contact {
+  width: 46%;
+  margin: 2%;
+  background-color: white;
+  height: 50px;
+  border-radius: 8px;
+  color: grey;
+  display: flex;
+  align-items: center;
+}
+.contact-right {
+  width: 40%;
+}
+.maps {
+  border-radius: 50%;
+  margin-left: 60px;
+}
+.req {
+  width: 100%;
+  height: 100px;
+  align-items: start;
+}
+.contact-left a {
+  height: 50px;
+  width: 
+  200px;
+  border-radius: 24px;
+}
