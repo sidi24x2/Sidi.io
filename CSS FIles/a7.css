@@ -60,7 +60,8 @@ body {
 /*container*/
 
 .container {
-    width: 1000px;
+    max-width: 1000px;
+    width: 100%;
     margin: 0 auto;
     background-color: white;
 }
@@ -110,4 +111,13 @@ p {
 }
 .clearfix::after {
     clear: both;
+}
+@media screen and (max-width:768px) {
+    .col {
+        width: 100%;
+    }
+    .middle {
+        width: 100%;
+    }
+    
 }
